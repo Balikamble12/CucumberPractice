@@ -19,6 +19,7 @@
 <test name="User check PIM module">
 	<classes>
         <class name="Test_Runner.PIMRunner"></class>
+         <class name="Test_Runner.AdminRunner"></class>
 	</classes>
 
  </test>
