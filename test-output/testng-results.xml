@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-14T07:50:54 IST" name="All Scenarios" finished-at="2026-09-14T07:51:38 IST" duration-ms="44772">
+    <groups>
+    </groups>
+    <test started-at="2026-09-14T07:50:54 IST" name="User check PIM module" finished-at="2026-09-14T07:51:07 IST" duration-ms="12972">
+      <class name="Test_Runner.PIMRunner">
+        <test-method is-config="true" signature="BeforeSuitmehtod()[pri:0, instance:Test_Runner.PIMRunner@3feb2dda]" started-at="2026-09-14T07:50:54 IST" name="BeforeSuitmehtod" finished-at="2026-09-14T07:50:54 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuitmehtod -->
+        <test-method is-config="true" signature="Beforeclassmethod()[pri:0, instance:Test_Runner.PIMRunner@3feb2dda]" started-at="2026-09-14T07:50:54 IST" name="Beforeclassmethod" finished-at="2026-09-14T07:50:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforeclassmethod -->
+        <test-method is-config="true" signature="LaunchApp(java.lang.String)[pri:0, instance:Test_Runner.PIMRunner@3feb2dda]" started-at="2026-09-14T07:50:54 IST" name="LaunchApp" finished-at="2026-09-14T07:51:03 IST" duration-ms="9157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApp -->
+        <test-method is-config="true" signature="driversetup()[pri:0, instance:Test_Runner.PIMRunner@3feb2dda]" started-at="2026-09-14T07:51:03 IST" name="driversetup" finished-at="2026-09-14T07:51:03 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method signature="ValidatePIMfunctionlity()[pri:3, instance:Test_Runner.PIMRunner@3feb2dda]" started-at="2026-09-14T07:51:03 IST" name="ValidatePIMfunctionlity" finished-at="2026-09-14T07:51:06 IST" duration-ms="3562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatePIMfunctionlity -->
+        <test-method is-config="true" signature="close(org.testng.ITestResult)[pri:0, instance:Test_Runner.PIMRunner@3feb2dda]" started-at="2026-09-14T07:51:06 IST" name="close" finished-at="2026-09-14T07:51:07 IST" duration-ms="203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidatePIMfunctionlity status=SUCCESS method=PIMRunner.ValidatePIMfunctionlity()[pri:3, instance:Test_Runner.PIMRunner@3feb2dda] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Test_Runner.PIMRunner -->
+    </test> <!-- User check PIM module -->
+    <test started-at="2026-09-14T07:50:54 IST" name="User check Admin Module and leave module" finished-at="2026-09-14T07:51:38 IST" duration-ms="44772">
+      <class name="Test_Runner.LeaveRunner">
+        <test-method is-config="true" signature="Beforeclassmethod()[pri:0, instance:Test_Runner.LeaveRunner@4d0d9fe7]" started-at="2026-09-14T07:51:04 IST" name="Beforeclassmethod" finished-at="2026-09-14T07:51:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforeclassmethod -->
+        <test-method is-config="true" signature="LaunchApp(java.lang.String)[pri:0, instance:Test_Runner.LeaveRunner@4d0d9fe7]" started-at="2026-09-14T07:51:04 IST" name="LaunchApp" finished-at="2026-09-14T07:51:10 IST" duration-ms="5376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApp -->
+        <test-method is-config="true" signature="driverinit()[pri:0, instance:Test_Runner.LeaveRunner@4d0d9fe7]" started-at="2026-09-14T07:51:10 IST" name="driverinit" finished-at="2026-09-14T07:51:10 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverinit -->
+        <test-method signature="Leave_functionlity()[pri:1, instance:Test_Runner.LeaveRunner@4d0d9fe7]" started-at="2026-09-14T07:51:10 IST" name="Leave_functionlity" finished-at="2026-09-14T07:51:28 IST" duration-ms="17957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Leave_functionlity -->
+        <test-method is-config="true" signature="close(org.testng.ITestResult)[pri:0, instance:Test_Runner.LeaveRunner@4d0d9fe7]" started-at="2026-09-14T07:51:28 IST" name="close" finished-at="2026-09-14T07:51:28 IST" duration-ms="208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Leave_functionlity status=SUCCESS method=LeaveRunner.Leave_functionlity()[pri:1, instance:Test_Runner.LeaveRunner@4d0d9fe7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Test_Runner.LeaveRunner -->
+      <class name="Test_Runner.AdminRunner">
+        <test-method is-config="true" signature="Beforeclassmethod()[pri:0, instance:Test_Runner.AdminRunner@7188af83]" started-at="2026-09-14T07:50:54 IST" name="Beforeclassmethod" finished-at="2026-09-14T07:50:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforeclassmethod -->
+        <test-method is-config="true" signature="LaunchApp(java.lang.String)[pri:0, instance:Test_Runner.AdminRunner@7188af83]" started-at="2026-09-14T07:50:54 IST" name="LaunchApp" finished-at="2026-09-14T07:51:02 IST" duration-ms="8632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:Test_Runner.AdminRunner@7188af83]" started-at="2026-09-14T07:51:02 IST" name="initPage" finished-at="2026-09-14T07:51:02 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="UservalidateusernameClear()[pri:0, instance:Test_Runner.AdminRunner@7188af83]" started-at="2026-09-14T07:51:02 IST" name="UservalidateusernameClear" finished-at="2026-09-14T07:51:04 IST" duration-ms="1737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UservalidateusernameClear -->
+        <test-method is-config="true" signature="close(org.testng.ITestResult)[pri:0, instance:Test_Runner.AdminRunner@7188af83]" started-at="2026-09-14T07:51:04 IST" name="close" finished-at="2026-09-14T07:51:04 IST" duration-ms="446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UservalidateusernameClear status=SUCCESS method=AdminRunner.UservalidateusernameClear()[pri:0, instance:Test_Runner.AdminRunner@7188af83] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="LaunchApp(java.lang.String)[pri:0, instance:Test_Runner.AdminRunner@7188af83]" started-at="2026-09-14T07:51:28 IST" name="LaunchApp" finished-at="2026-09-14T07:51:32 IST" duration-ms="4015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:Test_Runner.AdminRunner@7188af83]" started-at="2026-09-14T07:51:32 IST" name="initPage" finished-at="2026-09-14T07:51:32 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="ValidateAdminFunctionlity()[pri:2, instance:Test_Runner.AdminRunner@7188af83]" started-at="2026-09-14T07:51:32 IST" name="ValidateAdminFunctionlity" finished-at="2026-09-14T07:51:38 IST" duration-ms="6110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAdminFunctionlity -->
+        <test-method is-config="true" signature="close(org.testng.ITestResult)[pri:0, instance:Test_Runner.AdminRunner@7188af83]" started-at="2026-09-14T07:51:38 IST" name="close" finished-at="2026-09-14T07:51:38 IST" duration-ms="203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateAdminFunctionlity status=SUCCESS method=AdminRunner.ValidateAdminFunctionlity()[pri:2, instance:Test_Runner.AdminRunner@7188af83] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Test_Runner.AdminRunner -->
+    </test> <!-- User check Admin Module and leave module -->
+  </suite> <!-- All Scenarios -->
+</testng-results>

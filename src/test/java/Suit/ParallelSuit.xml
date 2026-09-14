@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parallel Suite" parallel="suites" thread-count="2">
+
+    <suite-files>
+
+  <suite-file path="AdminSuite"/>
+  <suite-file path="LeaveSuite"/>
+
+
+</suite-files>
+    
+</suite>

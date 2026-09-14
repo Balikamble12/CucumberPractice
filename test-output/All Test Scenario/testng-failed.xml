@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [All Test Scenario]">
+  <parameter name="Browser" value="Chrome"/>
+  <test thread-count="2" parallel="methods" name="vlaidation test(failed)">
+    <classes>
+      <class name="Test_Runner.AdminRunner">
+        <methods>
+          <include name="ValidateAdminFunctionlity"/>
+          <include name="close"/>
+          <include name="BeforeSuitmehtod"/>
+          <include name="Beforeclassmethod"/>
+          <include name="LaunchApp"/>
+          <include name="initPage"/>
+          <include name="UservalidateusernameClear"/>
+        </methods>
+      </class> <!-- Test_Runner.AdminRunner -->
+    </classes>
+  </test> <!-- vlaidation test(failed) -->
+  <test thread-count="2" parallel="methods" name="validation test 2(failed)">
+    <classes>
+      <class name="Test_Runner.Leave_runner">
+        <methods>
+          <include name="close"/>
+          <include name="BeforeSuitmehtod"/>
+          <include name="Leave_functionlity"/>
+          <include name="Beforeclassmethod"/>
+          <include name="LaunchApp"/>
+          <include name="driverinit"/>
+        </methods>
+      </class> <!-- Test_Runner.Leave_runner -->
+    </classes>
+  </test> <!-- validation test 2(failed) -->
+</suite> <!-- Failed suite [All Test Scenario] -->

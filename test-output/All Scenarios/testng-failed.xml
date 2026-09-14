@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [All Scenarios]" guice-stage="DEVELOPMENT">
+  <parameter name="Browser" value="chrome"/>
+  <test thread-count="2" parallel="tests" name="User check PIM module(failed)">
+    <classes>
+      <class name="Test_Runner.PIMRunner">
+        <methods>
+          <include name="Beforeclassmethod"/>
+          <include name="driversetup"/>
+          <include name="ValidatePIMfunctionlity"/>
+          <include name="BeforeSuitmehtod"/>
+          <include name="close"/>
+          <include name="LaunchApp"/>
+        </methods>
+      </class> <!-- Test_Runner.PIMRunner -->
+    </classes>
+  </test> <!-- User check PIM module(failed) -->
+  <test thread-count="2" parallel="tests" name="User check Admin Module and leave module(failed)">
+    <classes>
+      <class name="Test_Runner.LeaveRunner">
+        <methods>
+          <include name="Beforeclassmethod"/>
+          <include name="BeforeSuitmehtod"/>
+          <include name="Leave_functionlity"/>
+          <include name="close"/>
+          <include name="LaunchApp"/>
+          <include name="driverinit"/>
+        </methods>
+      </class> <!-- Test_Runner.LeaveRunner -->
+      <class name="Test_Runner.AdminRunner">
+        <methods>
+          <include name="Beforeclassmethod"/>
+          <include name="ValidateAdminFunctionlity"/>
+          <include name="BeforeSuitmehtod"/>
+          <include name="close"/>
+          <include name="LaunchApp"/>
+          <include name="initPage"/>
+          <include name="UservalidateusernameClear"/>
+        </methods>
+      </class> <!-- Test_Runner.AdminRunner -->
+    </classes>
+  </test> <!-- User check Admin Module and leave module(failed) -->
+</suite> <!-- Failed suite [All Scenarios] -->

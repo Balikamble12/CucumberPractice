@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="AdminSuit" parallel= "tests" thread-count="2" >
+<parameter name="Browser" value="chrome"></parameter>
+	<test name="User check Admin Module and login module">
+	
+
+		<classes>
+          
+		   <class name="Test_Runner.LeaveRunner"></class>
+		    
+
+		</classes>
+
+   </test>
+	
+	<test name= "Leave Module">
+	
+	  <classes  name="Test_Runner.AdminRunner"></classes>
+	
+	</test>
+
+</suite>
